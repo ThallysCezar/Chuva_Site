@@ -1,0 +1,137 @@
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    width: 220px;
+    height: 100%;
+    background: rgb(49, 49, 49);
+    padding: 0px 0px;
+}
+
+img{
+    height: 258px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+
+h2{
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .main_content {
+    width: 100%;
+    margin-left: 232px;
+    top: 20px;
+}
+
+.wrapper .main_content .not {
+    height: 68px;
+    width: 1146px;
+}
+
+.analise {
+    margin-left: 263px;
+    margin-right: 56px;
+    position: relative;
+    top: 20px;
+    width: 768px;
+    height: 54px;
+}
+
+.botoesd {
+    height: 31px;
+    margin-right: 5px;
+    width: 120px;
+    left: 842px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.botoese {
+    height: 31px;
+    width: 43px;
+    left: 967px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.botoesdoi {
+    margin-left: 5px;
+    height: 31px;
+    width: 43px;
+    left: 1015px;
+    border-radius: 4px;
+}
+
+.textinho {
+    margin-top: 4px;
+    height: 25px;
+    width: 239px;
+    left: 820px;
+    top: 43px;
+    border-radius: nullpx;
+}
+
+.wrapper .video {
+    margin-left: 263px;
+    margin-right: 31px;
+    width: 783px;
+    height: 439px;
+    left: 2px;
+    top: 73px;
+    border-radius: 3px;
+}
+.wv {
+    margin-top: 19px;
+    top: 20px;
+}
+
+.wrapper .detalhes {    
+    top: 20px;
+    margin-top: 5px;
+    height: 439px;
+    width: 242px;
+    left: 816px;
+    top: 73px;
+    border-radius: 3px;    
+}
+.resumo {
+    margin-left: 232px;
+    height: 189px;
+    width: 1058px;
+    left: 0px;
+    top: 542px;
+    border-radius: 3px;
+}
+.discussoes {
+    margin-left: 232px;
+    height: 621px;
+    width: 1058px;
+    left: 0px;
+    top: 761px;
+    border-radius: 3px;
+}
+.footer{
+    margin-left: 234px;
+    height: 181px;
+    width: 1086px;
+    left: 14px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.wrapper .sidebar h2 {
+    width: 100%;
+    height: 68px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
