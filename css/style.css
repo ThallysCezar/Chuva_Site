@@ -6,11 +6,11 @@
 .wrapper .sidebar {
     width: 220px;
     height: 100%;
-    background: rgb(49, 49, 49);
+    background: #fff;
     padding: 0px 0px;
 }
 
-img{
+img {
     height: 258px;
     width: 220px;
     left: 0px;
@@ -19,13 +19,34 @@ img{
 
 }
 
-h2{
+h2 {
     top: 50%;
     left: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.tamanho-menu {
+    height: 33px;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}  
+  
+  .wrapper .sidebar ul div li a{
+    color: #725C5C;
+    display: block;
+  }
+  
+  .wrapper .sidebar ul div li:hover{
+    background-color: #FDF1EB;
+  }
+      
+  .wrapper .sidebar ul div li:hover a{
+    color:  #725C5C;
+  }
 
 .wrapper .main_content {
     width: 100%;
@@ -90,20 +111,22 @@ h2{
     top: 73px;
     border-radius: 3px;
 }
+
 .wv {
     margin-top: 19px;
     top: 20px;
 }
 
-.wrapper .detalhes {    
+.wrapper .detalhes {
     top: 20px;
     margin-top: 5px;
     height: 439px;
     width: 242px;
     left: 816px;
     top: 73px;
-    border-radius: 3px;    
+    border-radius: 3px;
 }
+
 .resumo {
     margin-left: 232px;
     height: 189px;
@@ -112,6 +135,7 @@ h2{
     top: 542px;
     border-radius: 3px;
 }
+
 .discussoes {
     margin-left: 232px;
     height: 621px;
@@ -120,7 +144,8 @@ h2{
     top: 761px;
     border-radius: 3px;
 }
-.footer{
+
+.footer {
     margin-left: 234px;
     height: 181px;
     width: 1086px;
