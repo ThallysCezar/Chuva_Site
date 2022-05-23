@@ -16,7 +16,6 @@ img {
     left: 0px;
     top: 0px;
     border-radius: 0px;
-
 }
 
 h2 {
@@ -33,20 +32,41 @@ h2 {
     left: 0px;
     top: 0px;
     border-radius: 0px;
-}  
-  
-  .wrapper .sidebar ul div li a{
+}
+
+.bg-cinza {
+    background: #E5E5E5;
+}
+
+.wrapper .sidebar ul div li a {
     color: #725C5C;
     display: block;
-  }
-  
-  .wrapper .sidebar ul div li:hover{
+}
+
+.wrapper .sidebar ul div li:hover {
     background-color: #FDF1EB;
-  }
-      
-  .wrapper .sidebar ul div li:hover a{
-    color:  #725C5C;
-  }
+}
+
+.wrapper .sidebar ul div li:hover a {
+    color: #725C5C;
+}
+
+.wrapper .sidebar ul li{
+    border-bottom: 1px solid #878688;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(37, 37, 37, 0.05);
+}  
+
+.text-color{
+    color: rgba(114, 92, 92, 1);
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
 
 .wrapper .main_content {
     width: 100%;
@@ -66,6 +86,9 @@ h2 {
     top: 20px;
     width: 768px;
     height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .botoesd {
@@ -99,6 +122,14 @@ h2 {
     width: 239px;
     left: 820px;
     top: 43px;
+    border-radius: nullpx;
+}
+
+.link {
+    height: 19px;
+    width: 99px;
+    left: 24px;
+    top: 7px;
     border-radius: nullpx;
 }
 
