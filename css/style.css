@@ -57,6 +57,54 @@ h2 {
     border-top: 1px solid rgba(37, 37, 37, 0.05);
 }  
 
+.bg-button{
+    background-color:  rgba(237, 120, 57, 1);
+    border-radius: 4px; 
+}
+
+.textnav-topo{
+    height: 16px;
+    width: 391px;
+    left: 36px;
+    top: 5px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textonav-center{
+    height: 26px;
+    width: 643px;
+    left: 36px;
+    top: 23px;
+    border-radius: nullpx;    
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+        
+
+.textonav-baixo{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left; 
+    height: 16px;
+    width: 105px;
+    left: 36px;
+    top: 48px;
+    border-radius: nullpx;
+}
+
 .text-color{
     color: rgba(114, 92, 92, 1);
     font-family: Quicksand;
@@ -68,6 +116,36 @@ h2 {
 
 }
 
+.color-analise {
+    color: rgba(237, 120, 57, 1);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;    
+}
+
+.color-texto {  
+    color: rgba(237, 120, 57, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: right;
+
+}
+
+.text-analise{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;    
+}
+
 .wrapper .main_content {
     width: 100%;
     margin-left: 232px;
@@ -77,6 +155,32 @@ h2 {
 .wrapper .main_content .not {
     height: 68px;
     width: 1146px;
+    background: #FDF1EB;
+    position: absolute;
+}
+
+.dp-lingua{
+    height: 34px;
+    width: 97px;
+    left: 789px;
+    top: 17px;
+    border-radius: 3px;
+}
+
+.bemVindo {
+    height: 18px;
+    width: 72px;
+    left: 999px;
+    top: 17px;
+    border-radius: nullpx;
+}
+
+.emailAlguem {
+    height: 15px;
+    width: 163px;
+    left: 908px;
+    top: 36px;
+    border-radius: nullpx;
 }
 
 .analise {
@@ -158,13 +262,45 @@ h2 {
     border-radius: 3px;
 }
 
-.resumo {
+.resumo-div {
     margin-left: 232px;
     height: 189px;
     width: 1058px;
     left: 0px;
     top: 542px;
     border-radius: 3px;
+    border: 1px solid rgba(37, 37, 37, 0.05);
+}
+
+.resumo{
+    height: 45px;
+    width: 1058px;
+    left: 0px;
+    top: 542px;
+    border-radius: [object Object]px;
+    background-color: rgba(253, 241, 235, 1);
+}
+
+.text-resumo{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-lorem-resumo {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.link-resumo {
+    color:  rgba(237, 120, 57, 1);
 }
 
 .discussoes {
